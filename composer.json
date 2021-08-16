@@ -6,7 +6,8 @@
 		"andri-sudarmawijaya/theme-core-ui": "dev-master",
 		"andri-sudarmawijaya/jquery": "3.5.1",
 		"oomphinc/composer-installers-extender": "^2.0",
-		"andri-sudarmawijaya/codeigniter-smarty-acl": "V1.3-alpha"
+		"andri-sudarmawijaya/codeigniter-smarty-acl": "V1.3-alpha",
+		"andri-sudarmawijaya/ci-customer": "^v0"
 	},
 	"require-dev": {
 		"mikey179/vfsstream": "1.1.*"
