@@ -1,0 +1,12 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=5.3.2",
+		"codeigniter/framework": "3.1.*",
+		"andri-sudarmawijaya/jquery": "dev-master",
+		"andri-sudarmawijaya/theme-core-ui": "dev-master"
+	},
+	"require-dev": {
+		"mikey179/vfsstream": "1.1.*"
+	}
+}
