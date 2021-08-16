@@ -4,23 +4,68 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c811fb7b8160255df9ad0336dd00fc71",
+    "content-hash": "733efcdb95cc1fa37a2333fd8d8eb62a",
     "packages": [
         {
-            "name": "andri-sudarmawijaya/jquery",
-            "version": "dev-master",
+            "name": "andri-sudarmawijaya/codeigniter-smarty-acl",
+            "version": "V1.3.alpha",
             "source": {
                 "type": "git",
-                "url": "https://github.com/andri-sudarmawijaya/jquery.git",
-                "reference": "aeb8e422a76cd18d0e4f7e11af48cffdb3f70c16"
+                "url": "https://github.com/andri-sudarmawijaya/codeigniter-smarty-acl.git",
+                "reference": "7d5c05321a447ce8fe6254ee2553ff49f81fce55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andri-sudarmawijaya/jquery/zipball/aeb8e422a76cd18d0e4f7e11af48cffdb3f70c16",
-                "reference": "aeb8e422a76cd18d0e4f7e11af48cffdb3f70c16",
+                "url": "https://api.github.com/repos/andri-sudarmawijaya/codeigniter-smarty-acl/zipball/7d5c05321a447ce8fe6254ee2553ff49f81fce55",
+                "reference": "7d5c05321a447ce8fe6254ee2553ff49f81fce55",
                 "shasum": ""
             },
-            "default-branch": true,
+            "require": {
+                "oomphinc/composer-installers-extender": "^2.0"
+            },
+            "type": "codeigniter-third-party",
+            "extra": {
+                "installer-paths": {
+                    "application/third-party/": [
+                        "type:codeigniter-third-party"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AndriSudarmawijaya\\CodeigniterSmartyAcl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rubens Rocha",
+                    "homepage": "https://github.com/rubensrocha/codeigniter-smarty-acl"
+                }
+            ],
+            "description": "Lightweight Auth System with ACL for CodeIgniter 3",
+            "support": {
+                "source": "https://github.com/andri-sudarmawijaya/codeigniter-smarty-acl/tree/V1.3.alpha"
+            },
+            "time": "2021-08-16T01:35:29+00:00"
+        },
+        {
+            "name": "andri-sudarmawijaya/jquery",
+            "version": "3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andri-sudarmawijaya/jquery.git",
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andri-sudarmawijaya/jquery/zipball/b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "reference": "b33e8f0f9a1cb2ae390cf05d766a900b53d2125b",
+                "shasum": ""
+            },
             "type": "component",
             "extra": {
                 "component": {
@@ -42,8 +87,7 @@
             ],
             "authors": [
                 {
-                    "name": "JS Foundation and other contributors",
-                    "homepage": "https://github.com/jquery/jquery/blob/master/AUTHORS.txt"
+                    "name": "JS Foundation and other contributors"
                 }
             ],
             "description": "jQuery JavaScript Library",
@@ -55,7 +99,7 @@
                 "source": "https://github.com/jquery/jquery",
                 "wiki": "http://docs.jquery.com/"
             },
-            "time": "2021-08-15T13:32:10+00:00"
+            "time": "2020-05-05T13:21:02+00:00"
         },
         {
             "name": "andri-sudarmawijaya/theme-core-ui",
@@ -63,16 +107,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/andri-sudarmawijaya/theme-core-ui.git",
-                "reference": "5ab0fe18a13398939a8f74df8788a57f29f5d6e0"
+                "reference": "602208bd637e35b874f690c7170b2b08f806483d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andri-sudarmawijaya/theme-core-ui/zipball/5ab0fe18a13398939a8f74df8788a57f29f5d6e0",
-                "reference": "5ab0fe18a13398939a8f74df8788a57f29f5d6e0",
+                "url": "https://api.github.com/repos/andri-sudarmawijaya/theme-core-ui/zipball/602208bd637e35b874f690c7170b2b08f806483d",
+                "reference": "602208bd637e35b874f690c7170b2b08f806483d",
                 "shasum": ""
             },
             "require": {
-                "andri-sudarmawijaya/jquery": "dev-master",
                 "coreui/coreui": "^4.0",
                 "datatables/datatables": "^1.10",
                 "fortawesome/font-awesome": " ^5.15",
@@ -101,7 +144,7 @@
                 "issues": "https://github.com/andri-sudarmawijaya/theme-core-ui/issues",
                 "source": "https://github.com/andri-sudarmawijaya/theme-core-ui/tree/v0.0.1"
             },
-            "time": "2021-08-15T15:22:08+00:00"
+            "time": "2021-08-15T16:04:51+00:00"
         },
         {
             "name": "codeigniter/framework",
@@ -142,6 +185,156 @@
                 "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki"
             },
             "time": "2019-09-19T12:08:45+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae03311f45dfe194412081526be2e003960df74b",
+                "reference": "ae03311f45dfe194412081526be2e003960df74b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "tastyigniter",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.11.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-28T06:42:17+00:00"
         },
         {
             "name": "coreui/coreui",
@@ -290,6 +483,63 @@
                 "source": "https://github.com/FortAwesome/Font-Awesome"
             },
             "time": "2021-08-04T19:09:22+00:00"
+        },
+        {
+            "name": "oomphinc/composer-installers-extender",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oomphinc/composer-installers-extender.git",
+                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oomphinc/composer-installers-extender/zipball/8d3fe38a1723e0e91076920c8bb946b1696e28ca",
+                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0",
+                "composer/installers": "^1.0",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "phpunit/phpunit": "^7.2",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "OomphInc\\ComposerInstallersExtender\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "OomphInc\\ComposerInstallersExtender\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Beemsterboer",
+                    "email": "stephen@oomphinc.com",
+                    "homepage": "https://github.com/balbuf"
+                },
+                {
+                    "name": "Nathan Dentzau",
+                    "email": "nate@oomphinc.com",
+                    "homepage": "http://oomph.is/ndentzau"
+                }
+            ],
+            "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
+            "homepage": "http://www.oomphinc.com/",
+            "support": {
+                "issues": "https://github.com/oomphinc/composer-installers-extender/issues",
+                "source": "https://github.com/oomphinc/composer-installers-extender/tree/2.0.0"
+            },
+            "time": "2020-08-11T21:06:11+00:00"
         },
         {
             "name": "snapappointments/bootstrap-select",
@@ -452,8 +702,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "andri-sudarmawijaya/jquery": 20,
-        "andri-sudarmawijaya/theme-core-ui": 20
+        "andri-sudarmawijaya/theme-core-ui": 20,
+        "andri-sudarmawijaya/codeigniter-smarty-acl": 15
     },
     "prefer-stable": false,
     "prefer-lowest": false,
